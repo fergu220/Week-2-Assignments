@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style2.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <form action="server.php">
+      <fieldset>
+        <legend>Contact Page</legend>
+        First Name:<br />
+        <input
+          type="text"
+          name="firstname"
+          value=""
+          placeholder="First Name Here"
+        /><br />
+        <br />
+        Email:<br />
+        <input
+          type="text"
+          name="email"
+          value=""
+          placeholder="Email Address Here"
+        /><br />
+        <br />
+        Message:<br />
+        <input
+          type="text"
+          name="Message"
+          value=""
+          placeholder="Message Here"
+        /><br />
+        <br />
+        <label for="priorityLevel">Priority Level</label>
+        <select name="priority" id="priorityLevel">
+          <option value="" selected>Select</option>
+          <option value="Urgent">Urgent</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+      </fieldset>
+    </form>
+    <button>Submit</button>
+  </body>
+</html>

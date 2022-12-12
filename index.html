@@ -4,23 +4,197 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="assets" href="./Assets/main.css" />
-    <h1>Section 1</h1>
-    <h2>Brett Ferguson Full Stack Web Development</h2>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Game Worn Shoes</title>
+    <style>
+      .purchase {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+      }
+    </style>
+    <style>
+      body {
+        background-image: url(./Assets/nike-basketball-all-star-2016-torontoi.webp);
+        background-size: cover;
+        background-attachment: scroll;
+      }
+    </style>
   </head>
-  <body>
-    <h1>Section 2</h1>
-    <img src="./Image/WESTCA-690x312.jpeg" />
-    <h1>Section 3</h1>
-    <p>
-      I'm a hard working, loyal individual that cares deeply about the welfare
-      of others.
-    </p>
-    <h1>Section 4</h1>
-    <ul>
-      <li>Becoming a proficient Web Developer</li>
-      <li>Build out a proficient Web Page</li>
-      <li>Understand the inner workings of the backend of Web Development</li>
-    </ul>
-  </body>
+  <header>
+    <div class="container">
+      <div class="top-navigation">
+        <img src="./Images/cover.png" alt="" class="ptoj" />
+        <a href="#" style="text-decoration: none; color: black">Players</a>
+        <a href="#" style="text-decoration: none; color: black">Shoe</a>
+        <a href="#" style="text-decoration: none; color: black">Marketplace</a>
+        <a href="#" style="text-decoration: none; color: black">History</a>
+        <a href="#" style="text-decoration: none; color: black">Locations</a>
+        <a href="#" style="text-decoration: none; color: black">Support</a>
+        <a href><img src="./Images/twitter.png" alt="" /></a>
+        <a href><img src="./Images/shoppingcart.png" alt="" /></a>
+        <a href><img src="./Images/usericon.png" alt="" /></a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="product-grid">
+      <div class="card stacked">
+        <img src="./GridImages/DeronWilliams.jpg" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Deron Williams</a
+            >
+          </h2>
+          <p class="card__price">$2,000</p>
+          <p class="card__description">51 pts vs Lakers 2000</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card stacked">
+        <img src="./GridImages/KobeBryant.jpg" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Kobe Bryant</a
+            >
+          </h2>
+          <p class="card__price">$10,000</p>
+          <p class="card__description">81 pts vs Raptors 2007</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card stacked">
+        <img src="./GridImages/KyrieIrving.jpeg" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Kyrie Irving</a
+            >
+          </h2>
+          <p class="card__price">$8,000</p>
+          <p class="card__description">20pt 4th Qtr 2015 NBA finals</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card stacked">
+        <img src="./GridImages/Zion.jpeg" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Zion Williamson</a
+            >
+          </h2>
+          <p class="card__price">$15,000</p>
+          <p class="card__description">51pts vs Spurs 2020</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card stacked">
+        <img src="./GridImages/Giannis.webp" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Giannis Antetokounmpo</a
+            >
+          </h2>
+          <p class="card__price">$12,000</p>
+          <p class="card__description">34pts vs Suns 2020 NBA Finals</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card stacked">
+        <img src="./GridImages/MJ.jpg" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Michael Jordan</a
+            >
+          </h2>
+          <p class="card__price">$50,000</p>
+          <p class="card__description">40pts vs Jazz 1998 NBA Finals</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card stacked">
+        <img src="./GridImages/KD.jpg" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Kevin Durant</a
+            >
+          </h2>
+          <p class="card__price">$18,000</p>
+          <p class="card__description">65pts vs Suns 2019</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card stacked">
+        <img src="./GridImages/PG.jpg" alt="" class="card__img" />
+        <div class="card__content">
+          <h2 class="card__title">
+            <a href="#" style="text-decoration: none; color: rgb(197, 191, 0)"
+              >Paul George</a
+            >
+          </h2>
+          <p class="card__price">$7,000</p>
+          <p class="card__description">50pts vs Trailblazers 2016</p>
+          <div class="purchase">
+            <button class="purchase">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="company description">
+        <div class="landingpage-body">
+          <img src="./Images/cover2.png" alt="" class="ptoj" />
+        </div>
+        <div class="description">
+          <p>
+            Pro to Joe is a company built to connect the average Joe to his
+            favorite Pros. The average Joe now has the ability to purchase game
+            worn shoes directly from their favorite Pros along with a
+            personalized message commemorating the piece of history that they
+            now own. Where previous auctions and memorablia stores eliminate the
+            Joe to Pro connection our product bridges that gap and delivers a
+            unique buying experience for the everyday fan!
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-of-website">
+      <div class="Copyright">
+        <p>
+          Pro to Joe owns rights to this content and media in association with
+          The NBAPA.
+        </p>
+      </div>
+      <div class="Contact Us">
+        <a href="http://127.0.0.1:5500/index2.html" class="button"
+          >Contact Us</a
+        >
+      </div>
+    </div>
+  </footer>
 </html>
