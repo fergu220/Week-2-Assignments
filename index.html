@@ -1,74 +1,48 @@
 <!DOCTYPE html>
-<html lang "en">
+<html lang="en">
   <head>
-    <style>
-      table,th,td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        text-align: left;
-      }
-    </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table Project</title>
+    <title>Document</title>
   </head>
   <body>
-    <table>
-      <thead>
-        <th>Company</th>
-        <th>Model</th>
-        <th>Phone</th>
-        <th>City</th>
-        <th>Country</th>
-        <th>Staff</th>
-        <th>Industry</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Dodge</td>
-          <td>Challenger</td>
-          <td>123-456-7890</td>
-          <td>Indianapolis, IN</td>
-          <td>USA</td>
-          <td>45</td>
-          <td>Racing</td>
-        </tr>
-        <tr>
-          <td>Maruti</td>
-          <td>Swift</td>
-          <td>321-654-0987</td>
-          <td>Frankfurt</td>
-          <td>Germany</td>
-          <td>100</td>
-          <td>Show Cars</td>
-        </tr>
-        <tr>
-          <td>Jeep</td>
-          <td>Wrangler</td>
-          <td>876-908-1435</td>
-          <td>Paris</td>
-          <td>France</td>
-          <td>200</td>
-          <td>Off Roading</td>
-        </tr>
-        <tr>
-          <td colspan="7">
-            All these car company names and their models names are collected
-            from the internet. You can change Company and model name as per your
-            choice
-          </td>
-        </tr>
-        <tr>
-          <td>BMW</td>
-          <td>BMW 5 Series</td>
-          <td>987-095-2314</td>
-          <td>Rome</td>
-          <td>Italy</td>
-          <td>300</td>
-          <td>Performance</td>
-        </tr>
-      </tbody>
-    </table>
+    <form action="server.php">
+      <fieldset>
+        <legend>Contact Page</legend>
+        First Name:<br />
+        <input
+          type="text"
+          name="firstname"
+          value=""
+          placeholder="First Name Here"
+        /><br />
+        <br />
+        Email:<br />
+        <input
+          type="text"
+          name="email"
+          value=""
+          placeholder="Email Address Here"
+        /><br />
+        <br />
+        Message:<br />
+        <input
+          type="text"
+          name="Message"
+          value=""
+          placeholder="Message Here"
+        /><br />
+        <br />
+        <label for="priorityLevel">Priority Level</label>
+        <select name="priority" id="priorityLevel">
+          <option value="" selected>Select</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+      </fieldset>
+    </form>
+    <button>Submit</button>
   </body>
 </html>
